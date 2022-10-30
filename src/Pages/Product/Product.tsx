@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from "react";
 import Favorites from "../../Components/Favorites/Favorites";
-import "./Product.css";
 import ZoomInIcon from '@mui/icons-material/ZoomIn';
 import ReactImageMagnify from "react-image-magnify"
 import { useGlobalState } from "../../GlobalState/Store";

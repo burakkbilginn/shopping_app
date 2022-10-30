@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { VariableSizeGrid as FixedSizeGrid } from "react-window";
 import ItemCard, { Item } from "../../Components/Item/ItemCard";
 import AutoSizer from "react-virtualized-auto-sizer";
-import "./Shop.css";
 import FetchApi from "../API/Api";
 import Favorites from "../../Components/Favorites/Favorites";
-import { getGlobalState, useGlobalState } from "../../GlobalState/Store"
+import { getGlobalState } from "../../GlobalState/Store"
 
 const columnCount = 4;
 const rowHeight = 250;

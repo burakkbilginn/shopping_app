@@ -1,8 +1,7 @@
-import React, { FunctionComponent, useEffect, } from "react";
+import React, { FunctionComponent, } from "react";
 import { Link } from "react-router-dom";
-import "./ItemCard.css";
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import { getGlobalState, setFavItems, setShopItem, useGlobalState } from "../../GlobalState/Store";
+import { setFavItems, setShopItem, useGlobalState } from "../../GlobalState/Store";
 
 export interface Item {
   id: number;

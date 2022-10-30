@@ -1,5 +1,4 @@
 import React from "react";
-import "./Favorites.css";
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { getGlobalState, setFavItems, useGlobalState } from "../../GlobalState/Store";
 

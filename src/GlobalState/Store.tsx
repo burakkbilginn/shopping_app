@@ -1,7 +1,6 @@
-import React, { StrictMode, useEffect } from 'react';
-import { createRoot } from 'react-dom/client';
+import React from 'react';
 
-import { createGlobalState, createStore } from 'react-hooks-global-state';
+import { createGlobalState } from 'react-hooks-global-state';
 // import { Item } from '../Components/Item/ItemCard';
 
 export interface Item {
@@ -42,40 +41,3 @@ export const setFavItems = (element: Item) => {
 export const setShopItem = (s: React.SetStateAction<Item>) => {
   setGlobalState("shopItem", s);
 }
-
-
-
-
-// const store = createStore(reducer, initialState);
-// const { useStoreState, dispatch } = store;
-  
-// const reducer = (state: { favItems: Item[]; }, action: { type: Item }) => {
-//     switch (action.type) {
-//       case 'setFavItems': return { ...state, favItems: state.favItems.push(action.type) }
-//       default: return state;
-//     }
-// }
-  
-// export const { dispatch, useStoreState } = createStore(reducer, initialState);
-
-// const favItemsCurrent = useStoreState("favItems")
-
-
-// type Action = | { type: 'setFavItems'; favItems: Item[] }
-
-// type State = typeof initialState;
-
-// export const { dispatch, useStoreState } = createStore(
-//   (state, action) => {
-//     switch (action.type) {
-//       case 'setFavItems': return {
-//         ...state,
-//         favItems: [...state.favItems, action.favItems],
-//       }
-//       default: return state;
-//     }
-//   },
-//   initialState
-// )
-
-

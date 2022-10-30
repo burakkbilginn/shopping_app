@@ -11,9 +11,10 @@
     padding: 10px;
     z-index: 100;
     cursor: pointer;
-  }
-  .wrapper button:hover {
-    background-color: blue;
+
+    &:hover {
+        background-color: blue;
+    }
   }
 
   .wrapper {
