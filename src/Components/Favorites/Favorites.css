@@ -1,0 +1,90 @@
+.favItemContainer {
+    position: relative;
+    width: 20vw;
+    height: fit-content;
+    padding: 1em;
+    margin: 50px;
+    border: 1px dashed black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.favItemsBlock {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: rgba(34, 34, 30, 0.068);
+    align-items: center;
+    padding: 6px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.favItems_favIconContainer {
+    float: right;
+    position: relative;
+    background-color: gold;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.favItems_BottomContainer {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-width: 100%;
+    margin: 0;
+    /* width: 150px; */
+    width: 100%;
+    
+}
+.favItems_itemName{    
+    font-family: 'Poppins';
+    height: 30px;
+    width: fit-content;
+    padding-top: 10px;
+    font-size: 8px;
+}
+.favItems_itemPrice{    
+    white-space: nowrap;
+    font-size: 12px;
+}
+.favItems_RightBlock {
+    margin-left: 15px;
+    flex: 1;
+}
+.favItemsHeader {
+    align-self: center;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        /* 1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4); */
+    1px 12px 6px rgba(16,16,16,0.4),
+    1px 14px 10px rgba(16,16,16,0.2),
+    1px 17px 35px rgba(16,16,16,0.2),
+    1px 20px 60px rgba(16,16,16,0.4);
+}
